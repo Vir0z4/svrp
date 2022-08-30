@@ -22,4 +22,4 @@ This tool was developed with WPF (Windows Presentation Foundation).
 
 Sony Vaio MOD Patcher (patchmod.exe) is used to patch the the first split WIM file, in order for wimlib-imagex to be able to put the full WIM together. Original source of this program is currently unknown, as it was originally published on the now defunct NotebookReview forums.
 
-This patching method was discovered by a NotebookReview forum user named "madurai_tiger". Link to the original tool [here](https://drive.google.com/file/d/1YD7bDr-aW9nuFUKLNVEx94GMLfDBNo_b/view?usp=sharing). The original tool does not have a GUI, and it fails to put together some split WIM files correctly, as it uses Microsoft's ImageX instead of the better wimlib-imagex.
+This patching method was discovered by a NotebookReview forum user named "madurai_tiger". Download link to the original tool [here](https://drive.google.com/file/d/1YD7bDr-aW9nuFUKLNVEx94GMLfDBNo_b/view?usp=sharing). The original tool does not have a GUI, and it fails to put together some split WIM files correctly, as it uses Microsoft's ImageX instead of the better wimlib-imagex.
