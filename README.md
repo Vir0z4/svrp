@@ -18,7 +18,7 @@ This open-source program is distributed under the GPL-3.0 license. It is require
 
 This tool was developed with WPF (Windows Presentation Foundation).
 
-[wimlib-imagex](https://wimlib.net) is the tool of choice for putting together the split WIM files. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
+[wimlib-imagex](https://wimlib.net) (version 1.13.5) is the tool of choice for putting together the split WIM files. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
 Sony Vaio MOD Patcher (patchmod.exe) is used to patch the the first split WIM file, in order for wimlib-imagex to be able to put the full WIM together. Original source of this program is currently unknown, as it was originally published on the now defunct NotebookReview forums.
 
