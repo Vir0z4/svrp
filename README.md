@@ -17,9 +17,11 @@ Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important 
 
 **.sny** files are used for the **Windows installation**, and contain everything, **including apps**, **.mod** files are apps, and can be extracted to be installed seperately, one by one, but are not needed if you want to install Windows, since they are already installed.
 
+SVRP must be installed and used in an environment with paths **that do not contain spaces!**
+
 ## Miscellaneous Informations
 
-The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable.
+The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable using "Bat to Exe Converter v3.2" by Fatih Kodak.
 
 [wimlib-imagex](https://wimlib.net) (version 1.13.6) is the tool of choice for putting together the split WIM files. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
