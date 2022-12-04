@@ -1,4 +1,6 @@
 # Sony VAIO Recovery Patcher (SVRP)
+![GitHub all releases](https://img.shields.io/github/downloads/vir0z4/svrp/total)
+![GitHub issues](https://img.shields.io/github/issues/vir0z4/svrp)
 
 ### Batch version
 
