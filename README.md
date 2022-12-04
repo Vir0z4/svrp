@@ -10,13 +10,15 @@ The batch version supports .sny files ONLY (for now)!
 
 ## Documentation
 
-Documentation will be available when the program is released.
+Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki).
 
 ## License Informations
 
 This open-source program is distributed under the GPL-3.0 license. It is required to follow the license, we will not hesitate to take legal action if the license is not followed.
 
 ## Miscellaneous Informations
+
+The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable.
 
 [wimlib-imagex](https://wimlib.net) (version 1.13.6) is the tool of choice for putting together the split WIM files. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
