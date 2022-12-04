@@ -9,7 +9,7 @@
 
 **A GUI version with more support for other files such as .mod is coming soon. For now, please use the batch version.**
 
-The batch version supports .sny files ONLY (for now)! Please visit the wiki to learn how to get those files.
+The batch version supports .sny files ONLY (for now)! Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki) to learn how to get those files.
 
 ## Documentation
 
