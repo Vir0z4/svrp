@@ -15,10 +15,6 @@ The batch version supports .sny files ONLY (for now)!
 
 Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki).
 
-## License Informations
-
-This open-source program is distributed under the GPL-3.0 license. It is required to follow the license, we will not hesitate to take legal action if the license is not followed.
-
 ## Miscellaneous Informations
 
 The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable.
