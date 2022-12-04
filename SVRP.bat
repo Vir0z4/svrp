@@ -1,7 +1,7 @@
 ECHO OFF & COLOR 17
 CLS & TITLE Sony VAIO Recovery Patcher (SVRP)
 
-ECHO Sony VAIO Recovery Patcher (SVRP)
+ECHO Sony VAIO Recovery Patcher (SVRP) - Batch v1.0
 ECHO 2022 - Vir0z4 Network IT
 ECHO.
 ECHO This tool supports .sny files ONLY (for now)!
