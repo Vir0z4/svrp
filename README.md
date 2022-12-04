@@ -7,13 +7,13 @@
 
 *SVRP* is a utility designed to patch and combine split WIM (.wim) files from Sony VAIO recoveries, **in order to bypass Sony's model checks**. This tool can be used when the recovery discs refuse to install, as they were not made on the unit they are trying to be installed on.
 
-**A GUI version with more support for other files such as .mod is coming soon. For now, please use the batch version.**
+**A GUI version with more support for other files is coming soon. For now, please use the batch version.**
 
-The batch version supports **.sny** files ONLY (for now)! Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki) to learn how to get those files.
+The batch version supports **.sny** and **.mod** files only, for now. Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki) to learn how to find .sny files.
 
 ## Documentation
 
-Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki).
+Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to take a look at the documentation on how to use SVRP before using the program.**
 
 ## Miscellaneous Informations
 
