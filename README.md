@@ -23,8 +23,8 @@ SVRP must be installed and used in an environment with paths **that do not conta
 
 The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable using "Bat to Exe Converter v3.2" by Fatih Kodak.
 
-[wimlib-imagex](https://wimlib.net) (version 1.13.6) is the tool of choice for putting together the split WIM files. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
+[wimlib-imagex](https://wimlib.net) (version 1.13.6) is the tool of choice for exporting and extracting WIMs. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
-Sony Vaio MOD Patcher (patchmod.exe) is used to patch the the first split WIM file, in order for wimlib-imagex to be able to put the full WIM together. It is also used to patch .mod files. Original source of this program is currently unknown, as it was originally published on the now defunct NotebookReview forums.
+Sony Vaio MOD Patcher (patchmod.exe) is used to patch .sny and .mod files, in order for wimlib-imagex to be able to recognize them. Original source of this program is currently unknown, as it was originally published on the now defunct NotebookReview forums.
 
-This patching method was discovered by a NotebookReview forum user named "madurai_tiger". Download link to the original tool [here](https://drive.google.com/file/d/1YD7bDr-aW9nuFUKLNVEx94GMLfDBNo_b/view?usp=sharing). The original tool does not have a GUI, and it fails to put together some split WIM files correctly, as it uses Microsoft's ImageX instead of the better wimlib-imagex.
+This patching method was discovered by a NotebookReview forum user named "madurai_tiger". Download link to the original tool [here](https://drive.google.com/file/d/1YD7bDr-aW9nuFUKLNVEx94GMLfDBNo_b/view?usp=sharing). The original tool is not automated, and it fails to put together some split WIM files correctly, as it uses Microsoft's ImageX instead of the better wimlib-imagex.
