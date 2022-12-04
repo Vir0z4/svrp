@@ -11,7 +11,7 @@
 /**
  * @mainpage
  *
- * This is the documentation for the library interface of wimlib 1.13.5, a C
+ * This is the documentation for the library interface of wimlib 1.13.6, a C
  * library for creating, modifying, extracting, and mounting files in the
  * Windows Imaging (WIM) format.  This documentation is intended for developers
  * only.  If you have installed wimlib and want to know how to use the @b
@@ -411,7 +411,7 @@
 #define WIMLIB_MINOR_VERSION 13
 
 /** Patch version of the library (for example, the 5 in 1.2.5). */
-#define WIMLIB_PATCH_VERSION 5
+#define WIMLIB_PATCH_VERSION 6
 
 #ifdef __cplusplus
 extern "C" {
@@ -1399,20 +1399,23 @@ struct wimlib_wim_info {
  *    sha1_hash.  This case can only occur with wimlib_iterate_dir_tree(), never
  *    wimlib_iterate_lookup_table().
  *
- * 2. Otherwise we know the sha1_hash, the uncompressed_size, the
- *    reference_count, and the is_metadata flag.  In addition:
+ * 2. Otherwise we know the uncompressed_size, the reference_count, and the
+ *    is_metadata flag.  In addition:
  *
  *    A. If the blob is located in a non-solid WIM resource, then we also know
- *       the compressed_size and offset.
+ *       the sha1_hash, compressed_size, and offset.
  *
  *    B. If the blob is located in a solid WIM resource, then we also know the
- *       offset, raw_resource_offset_in_wim, raw_resource_compressed_size, and
- *       raw_resource_uncompressed_size.  But the "offset" is actually the
- *       offset in the uncompressed solid resource rather than the offset from
- *       the beginning of the WIM file.
+ *       sha1_hash, offset, raw_resource_offset_in_wim,
+ *       raw_resource_compressed_size, and raw_resource_uncompressed_size.  But
+ *       the "offset" is actually the offset in the uncompressed solid resource
+ *       rather than the offset from the beginning of the WIM file.
  *
- *    C. If the blob is *not* located in any type of WIM resource, then we don't
- *       know any additional information.
+ *    C. If the blob is *not* located in any type of WIM resource, for example
+ *       if it's in a external file that was scanned by wimlib_add_image(), then
+ *       we usually won't know any more information.  The sha1_hash might be
+ *       known, and prior to wimlib v1.13.6 it always was; however, in wimlib
+ *       v1.13.6 and later, the sha1_hash might not be known in this case.
  *
  * Unknown or irrelevant fields are left zeroed.
  */
@@ -1432,7 +1435,8 @@ struct wimlib_resource_entry {
 	 * of this blob within that solid resource when uncompressed.  */
 	uint64_t offset;
 
-	/** The SHA-1 message digest of the blob's uncompressed contents.  */
+	/** If this blob is located in a WIM resource, then this is the SHA-1
+	 * message digest of the blob's uncompressed contents.  */
 	uint8_t sha1_hash[20];
 
 	/** If this blob is located in a WIM resource, then this is the part
@@ -4024,10 +4028,7 @@ wimlib_resolve_image(WIMStruct *wim,
  * This also enables error messages, as if by a call to
  * wimlib_set_print_errors(true).
  *
- * @return 0 on success; a ::wimlib_error_code value on failure.
- *
- * @retval ::WIMLIB_ERR_UNSUPPORTED
- *	wimlib was compiled using the <c>--without-error-messages</c> option.
+ * @return 0
  */
 extern int
 wimlib_set_error_file(FILE *fp);
@@ -4045,8 +4046,6 @@ wimlib_set_error_file(FILE *fp);
  *
  * @retval ::WIMLIB_ERR_OPEN
  *	The file named by @p path could not be opened for appending.
- * @retval ::WIMLIB_ERR_UNSUPPORTED
- *	wimlib was compiled using the <c>--without-error-messages</c> option.
  */
 extern int
 wimlib_set_error_file_by_name(const wimlib_tchar *path);
@@ -4244,10 +4243,7 @@ wimlib_set_output_pack_compression_type(WIMStruct *wim,
  *	@c true if messages are to be printed; @c false if messages are not to
  *	be printed.
  *
- * @return 0 on success; a ::wimlib_error_code value on failure.
- *
- * @retval ::WIMLIB_ERR_UNSUPPORTED
- *	wimlib was compiled using the <c>--without-error-messages</c> option.
+ * @return 0
  */
 extern int
 wimlib_set_print_errors(bool show_messages);
