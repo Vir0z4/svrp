@@ -1,6 +1,6 @@
 # Sony VAIO Recovery Patcher (SVRP)
 
-**This tool is not yet functional, and is under active development. It is estimated to be released in winter of 2022-2023.**
+### GUI version - will be available in the near future
 
 *SVRP* is a utility designed to patch and combine split WIM (.wim) files from Sony VAIO recoveries, in order to bypass Sony's model checks. This tool can be used when the recovery discs refuse to install, as they were not made on the unit they are trying to be installed on.
 
@@ -10,11 +10,7 @@ This program supports .sny and .mod files.
 
 ## Documentation
 
-Documentation will be available when the program is released.
-
-## License Informations
-
-This open-source program is distributed under the GPL-3.0 license. It is required to follow the license, we will not hesitate to take legal action if the license is not followed.
+Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki).
 
 ## Miscellaneous Informations
 
