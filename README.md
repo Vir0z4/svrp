@@ -13,9 +13,7 @@ The batch version supports **.sny** and **.mod** files only, for now. Please vis
 
 ## Documentation
 
-Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to take a look at the documentation on how to use SVRP before using the program.**
-
-**.sny** files are used for the **Windows installation**, and contain everything, **including apps**, **.mod** files are apps, and can be extracted to be installed seperately, one by one, but are not needed if you want to install Windows, since they are already installed.
+Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to take a look at the documentation on how to use SVRP before using the program!**
 
 SVRP must be installed and used in an environment with paths **that do not contain spaces!** Must be ran as administrator!
 
