@@ -17,6 +17,8 @@ Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important 
 
 SVRP must be installed and used in an environment with paths **that do not contain spaces!** Must be ran as administrator!
 
+For support, please join the [Sony MegaServer](https://discord.gg/EdccRK73nC) Discord server and talk to us on the #vaio channel.
+
 ## Miscellaneous Informations
 
 The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable using "Bat to Exe Converter v3.2" by Fatih Kodak.
