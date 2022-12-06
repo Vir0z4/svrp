@@ -13,7 +13,7 @@ The batch version supports **.sny** and **.mod** files only, for now. Please vis
 
 ## Documentation
 
-Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to take a look at the documentation on how to use SVRP before using the program!**
+Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to read the documentation before using SVRP!**
 
 SVRP must be installed and used in an environment with paths **that do not contain spaces!** Must be ran as administrator!
 
