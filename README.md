@@ -15,7 +15,7 @@ The batch version supports **.sny** and **.mod** files only, for now. Please vis
 
 Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to read the documentation before using SVRP!**
 
-SVRP must be installed and used in an environment with paths **that do not contain spaces!** Must be ran as administrator!
+SVRP must be installed and used in an environment with paths **that do not contain spaces!** Must be ran from executable, not batch file!
 
 For support, please join the [Sony MegaServer](https://discord.gg/EdccRK73nC) Discord server and talk to us on the #vaio channel.
 
