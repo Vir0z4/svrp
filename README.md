@@ -11,6 +11,8 @@
 
 The batch version supports **.sny** and **.mod** files only, for now. Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki/How-to-find-.sny-and-.mod-files) to learn how to find .sny and .mod files.
 
+**SVRP is flagged as a virus by some antiviruses as it uses BAT to EXE convertion! It is a false positive!**
+
 ## Documentation
 
 Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to read the documentation before using SVRP!**
