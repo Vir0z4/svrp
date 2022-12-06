@@ -11,8 +11,6 @@
 
 The batch version supports **.sny** and **.mod** files only, for now. Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki/How-to-find-.sny-and-.mod-files) to learn how to find .sny and .mod files.
 
-**SVRP is flagged as a virus by some antiviruses as it uses BAT to EXE convertion! It is a false positive!**
-
 ## Documentation
 
 Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki). **It is important to read the documentation before using SVRP!**
@@ -23,7 +21,7 @@ For support, please join the [Sony MegaServer](https://discord.gg/EdccRK73nC) Di
 
 ## Miscellaneous Informations
 
-The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable using "Bat to Exe Converter v3.2" by Fatih Kodak.
+The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable using "[Advanced BAT to EXE Converter](https://www.battoexeconverter.com)" by Brandon Dargo. This convertion is what makes some antiviruses think that SVRP is a virus.
 
 [wimlib-imagex](https://wimlib.net) (version 1.13.6) is the tool of choice for exporting and extracting WIMs. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
