@@ -17,17 +17,23 @@ ECHO 2. .mod (applications) (extracts to folder)
 ECHO.
 ECHO 3. Exit
 ECHO.
+SET "M="
 SET /P M=Type 1, 2 or 3 and press ENTER: 
-IF %M%==1 GOTO SNY
-IF %M%==2 GOTO MOD
-IF %M%==3 EXIT /B
-IF %INPUT%==false EXIT /B
+IF "%M%"=="1" GOTO SNY
+IF "%M%"=="2" GOTO MOD
+IF "%M%"=="3" EXIT /B
+ELSE
+GOTO MENU
 
 :SNY
 CLS
+SET "inputfolder="
+SET "f2="
 SET /p "inputfolder=Copy and paste path to folder with patchable files: "
+IF "%inputfolder%"=="" GOTO SNY
 ECHO.
 SET /p "f2=Enter name of first .sny file (usually has the shortest name) (example: sony.sny): "
+IF "%f2%"=="" GOTO SNY
 
 CLS
 ECHO Process 1 started...
@@ -59,9 +65,13 @@ GOTO MENU
 
 :MOD
 CLS
+SET "inputfoldermod="
+SET "m2="
 SET /p "inputfoldermod=Copy and paste path to folder with patchable files: "
+IF "%inputfoldermod%"=="" GOTO MOD
 ECHO.
 SET /p "m2=Enter name of .mod file to be extracted (example: MODJ-164418.mod): "
+IF "%m2%"=="" GOTO MOD
 
 CLS
 ECHO Process 1 started...
