@@ -22,7 +22,7 @@ For support, please join the [Sony MegaServer](https://discord.gg/EdccRK73nC) Di
 
 ## Miscellaneous Informations
 
-The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable using "[Advanced BAT to EXE Converter](https://www.battoexeconverter.com)" by Brandon Dargo. This convertion is what makes some antiviruses think that SVRP is a virus.
+The SVRP executable (SVRP.exe) is the batch file (SVRP.bat) converted to executable using "[Bat to Exe Converter](https://www.f2ko.de/programme/bat-to-exe-converter/)" by F2KO. This convertion is what makes some antiviruses think that SVRP is a virus.
 
 [wimlib-imagex](https://wimlib.net) (version 1.13.6) is the tool of choice for exporting and extracting WIMs. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
