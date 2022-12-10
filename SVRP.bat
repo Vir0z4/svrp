@@ -12,10 +12,10 @@ ECHO.
 ECHO Make sure the folder with patchable files is writable, path contains no spaces, and contains only the .sny or .mod files you want to patch! Make sure file names also don't contain spaces!
 ECHO.
 
-ECHO Select file extention
+ECHO Select file extension
 ECHO 1. .sny (Windows installation) (convertion to WIM)
 ECHO 2. .mod (applications) (extracts to folder)
-ECHO 3. Custom extention (experimental) (only if you know what you are doing)
+ECHO 3. Custom extension (experimental) (only if you know what you are doing)
 ECHO.
 ECHO 4. Exit
 ECHO.
@@ -46,7 +46,7 @@ START /B /WAIT %cd%\patchmod.exe %inputfolder%\%f2%
 ECHO.
 ECHO Process 1 completed.
 ECHO.
-ECHO If an error happened during the process, please try again.
+ECHO If an error happened during this process, please try again.
 ECHO If you already ran this process on this file and it was successful, it will always show an error when ran again, however please continue.
 ECHO.
 PAUSE
@@ -58,7 +58,7 @@ START /B /WAIT cmd /c "%cd%\wimlib-imagex\wimlib-imagex.exe export %inputfolder%
 ECHO.
 ECHO Process 2 completed.
 ECHO.
-ECHO If an error happened during the process, please try again.
+ECHO If an error happened during this process, please try again.
 ECHO.
 ECHO The WIM file should now be in the folder with patchable files!
 ECHO Please follow the documentation available on the SVRP GitHub to know how to install Windows from this WIM.
@@ -85,8 +85,8 @@ START /B /WAIT %cd%\patchmod.exe %inputfoldermod%\%m2%
 ECHO.
 ECHO Process 1 completed.
 ECHO.
-ECHO If an error happened during the process, please try again.
 ECHO If you already ran this process on this file and it was successful, it will always show an error when ran again, however please continue.
+ECHO Some .mod files will show "Invalid header bytes detected" in this process, please continue anyway.
 ECHO.
 PAUSE
 
@@ -98,7 +98,7 @@ START /B /WAIT cmd /c "%cd%\wimlib-imagex\wimlib-imagex.exe extract %inputfolder
 ECHO.
 ECHO Process 2 completed.
 ECHO.
-ECHO If an error happened during the process, please try again.
+ECHO If an error happened during this process, please try again.
 ECHO.
 ECHO The extracted .mod should now be in the folder "extract" in the folder with patchable files.
 ECHO.
@@ -132,8 +132,8 @@ START /B /WAIT %cd%\patchmod.exe %inputfoldermod%\%m2%
 ECHO.
 ECHO Process 1 completed.
 ECHO.
-ECHO If an error happened during the process, please try again.
 ECHO If you already ran this process on this file and it was successful, it will always show an error when ran again, however please continue.
+ECHO Some .mod files will show "Invalid header bytes detected" in this process, please continue anyway.
 ECHO.
 PAUSE
 
@@ -144,7 +144,7 @@ START /B /WAIT cmd /c "%cd%\wimlib-imagex\wimlib-imagex.exe extract %inputfolder
 ECHO.
 ECHO Process 2 completed.
 ECHO.
-ECHO If an error happened during the process, please try again.
+ECHO If an error happened during this process, please try again.
 ECHO.
 ECHO The extracted .mod should now be in the folder "extract" in the folder with patchable files.
 ECHO.
@@ -167,10 +167,10 @@ SET "e2="
 SET /p "inputfolderex=Copy and paste path to folder with files: "
 IF "%inputfolderex%"=="" GOTO EX2
 ECHO.
-SET /p "e2=Enter name of first file (with extention) (usually has the shortest name) (example: sony.img): "
+SET /p "e2=Enter name of first file (with extension) (usually has the shortest name) (example: sony.img): "
 IF "%e2%"=="" GOTO EX2
 ECHO.
-SET /p "ee2=Enter extention with dot (example: .img): "
+SET /p "ee2=Enter extension with dot (example: .img): "
 IF "%ee2%"=="" GOTO EX2
 
 CLS
