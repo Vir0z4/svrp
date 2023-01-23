@@ -6,6 +6,10 @@ The batch version is **outdated**, and for advanced users only. Please use the [
 
 Please only use the batch version for custom extention support (advanced users only).
 
+## Download
+
+The latest release of batch version is [v1.3](https://github.com/Vir0z4/svrp/releases/tag/B-v1.3).
+
 ## Documentation
 
 **Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki).**
