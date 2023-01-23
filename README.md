@@ -1,8 +1,10 @@
 # Sony VAIO Recovery Patcher (SVRP)
 
-### GUI version - will be available in the near future
+### GUI version
 
-*SVRP* is a utility designed to patch and combine split WIM (.wim) files from Sony VAIO recoveries, in order to bypass Sony's model checks. This tool can be used when the recovery discs refuse to install, as they were not made on the unit they are trying to be installed on.
+**AUTO PATCHER IS NOT CURRENTLY WORKING!**
+
+*SVRP* is a utility designed to patch and combine split WIM (.wim) and .mod files from Sony VAIO recoveries, in order to bypass Sony's model checks. This tool can be used when the recovery discs refuse to install, as they were not made on the unit they are trying to be installed on.
 
 It can also patch .mod files, which allows you to install applications offered in some recoveries (applications are already present in the WIM).
 
@@ -14,7 +16,7 @@ Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki).
 
 ## Miscellaneous Informations
 
-This tool was developed with WPF (Windows Presentation Foundation).
+This tool was developed with Python and batch, and was packaged to a standalone exe by Nuitka.
 
 [wimlib-imagex](https://wimlib.net) (version 1.13.5) is the tool of choice for putting together the split WIM files. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
