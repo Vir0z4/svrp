@@ -3,8 +3,8 @@ import subprocess
 import win32api
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QHBoxLayout, QPushButton
 from PyQt5.QtCore import Qt, QUrl
-from PyQt5.QtGui import QDesktopServices
-from PyQt5 import QtWidgets
+from PyQt5.QtGui import QDesktopServices, QIcon
+from PyQt5 import QtWidgets, QtGui
 
 class SVRP(QtWidgets.QMainWindow):
     def __init__(self):
@@ -73,6 +73,7 @@ class SVRP(QtWidgets.QMainWindow):
         about_dialog.exec_()
 
 app = QApplication(sys.argv)
+app.setWindowIcon(QIcon('VAIO.ico'))
 window = SVRP()
 window.show()
 sys.exit(app.exec_())

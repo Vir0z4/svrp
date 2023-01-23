@@ -3,7 +3,7 @@ import subprocess
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QHBoxLayout, QPushButton
 from PyQt5.QtCore import Qt, QUrl
 from PyQt5.QtGui import QDesktopServices
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets, QtGui
 
 class AboutDialog(QtWidgets.QDialog):
     def __init__(self, main_window):
@@ -13,6 +13,7 @@ class AboutDialog(QtWidgets.QDialog):
         self.setWindowFlag(Qt.WindowMaximizeButtonHint, False)
 
         self.setWindowTitle("About SVRP")
+        self.setWindowIcon(QtGui.QIcon("VAIO.ico"))
         self.setGeometry(100, 100, 300, 150)
 
         self.header_text = QLabel("About SVRP", self)

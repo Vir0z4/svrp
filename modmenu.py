@@ -2,7 +2,7 @@ import sys
 import subprocess
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QHBoxLayout, QPushButton
 from PyQt5.QtCore import Qt
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets, QtGui
 
 class ModMenu(QtWidgets.QDialog):
     def __init__(self, main_window):
@@ -12,6 +12,7 @@ class ModMenu(QtWidgets.QDialog):
         self.setWindowFlag(Qt.WindowMaximizeButtonHint, False)
 
         self.setWindowTitle("Sony VAIO Recovery Patcher")
+        self.setWindowIcon(QtGui.QIcon("VAIO.ico"))
         self.setGeometry(100, 100, 300, 150)
 
         self.header_text = QLabel(".mod extraction", self)

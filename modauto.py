@@ -4,7 +4,7 @@ import ctypes
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QComboBox, QHBoxLayout, QFileDialog
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QIcon, QTextOption
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets, QtGui
 
 class AutoMod(QtWidgets.QDialog):
     def __init__(self, main_window):
@@ -14,8 +14,8 @@ class AutoMod(QtWidgets.QDialog):
         self.setWindowFlag(Qt.WindowMaximizeButtonHint, False)
 
         self.setWindowTitle("Sony VAIO Recovery Patcher (.mod automatic)")
+        self.setWindowIcon(QtGui.QIcon("VAIO.ico"))
         self.setGeometry(100, 100, 475, 240)
-        self.setWindowIcon(QIcon("icon.png"))
 
         self.heading_text = QLabel("Sony VAIO Recovery Patcher (SVRP)", self)
         self.heading_text.setGeometry(12, 10, 500, 30)
