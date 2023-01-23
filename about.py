@@ -28,7 +28,7 @@ class AboutDialog(QtWidgets.QDialog):
         self.under_header_text_2.setGeometry(10, 70, 280, 50)
         self.under_header_text_2.setAlignment(Qt.AlignCenter)
 
-        self.back_button = QPushButton("Back", self)
+        self.back_button = QPushButton("Close", self)
         self.back_button.setGeometry(245, 8, 50, 20)
         self.back_button.clicked.connect(self.run_script1)
         

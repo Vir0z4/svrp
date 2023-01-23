@@ -12,7 +12,7 @@ ECHO.
 ECHO Process 1 completed.
 ECHO.
 ECHO If an error happened during this process, please try again.
-ECHO If you already ran this process on this file and it was successful, it will always show an error when ran again, however please continue.
+ECHO If you already ran this process on this file and it was successful, it will always show an error when ran again, this is normal.
 ECHO.
 PAUSE
 

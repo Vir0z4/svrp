@@ -10,8 +10,8 @@ START /B /WAIT C:\SVRP\patchmod.exe %1\%3
 ECHO.
 ECHO Process 1 completed.
 ECHO.
-ECHO If you already ran this process on this file and it was successful, it will always show an error when ran again, however please continue.
-ECHO Some .mod files will show "Invalid header bytes detected" in this process, please continue anyway.
+ECHO Some .mod files will show "Invalid header bytes detected" in this process, this is normal.
+ECHO If you already ran this process on this file and it was successful, it will always show an error when ran again, this is normal.
 ECHO.
 PAUSE
 

@@ -90,9 +90,9 @@ class AutoMod(QtWidgets.QDialog):
         input_path = self.input_bar.text()
         output_path = self.output_bar.text()
         
-        if not input_path or not output_path or not file_name:
+        if not input_path or not output_path:
             QtWidgets.QMessageBox.warning(self, 'Error', "You have not filled one or more of the input bars!")
         else:
-            batch_file = "C:\SVRP\automodpatcher.bat"
-            args = f'"{batch_file}" {input_path} {output_path}'
-            ctypes.windll.shell32.ShellExecuteW(None, "runas", "cmd.exe", '/c ' + args, None, 1)
+            batch_file = "C:\\SVRP\\automodpatcher.bat"
+            cmd = ' '.join([batch_file, input_path, output_path])
+            ctypes.windll.shell32.ShellExecuteW(None, "runas", "cmd.exe", '/c '+cmd, None, 1)
