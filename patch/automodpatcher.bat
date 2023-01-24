@@ -15,7 +15,7 @@ for %%f in (%1\*.mod) do (
   ECHO Process 1 started...
   ECHO.
   START /B /WAIT attrib -r %1\*.mod /s
-  START /B /WAIT C:\SVRP\patchmod.exe %1\%%f
+  START /B /WAIT C:\SVRP\patchmod.exe %%f
   ECHO.
   ECHO Process 1 completed.
   ECHO.
