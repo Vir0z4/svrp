@@ -1,6 +1,6 @@
 ## Welcome to Sony VAIO Recovery Patcher documentation!
 
-#### This is a test environnement! Please use the wiki available on the GitHub repository.
+#### This is a test environment! Please use the wiki available on the GitHub repository.
 
 ### Start here!
 
