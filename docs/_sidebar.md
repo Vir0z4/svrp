@@ -1,4 +1,4 @@
-### Sony VAIO Recovery Patcher - Documentation
+- ### Sony VAIO Recovery Patcher - Documentation
 
 - Getting started
 
