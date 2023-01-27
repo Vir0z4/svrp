@@ -4,7 +4,7 @@
 
 - Using SVRP
 
-  - [How to use SVRP (GUI)](How-to-use-SVRP-GUI.md)
+  - [How to use SVRP](How-to-use-SVRP-GUI.md)
 
 - Installation
 
