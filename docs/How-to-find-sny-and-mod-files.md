@@ -1,3 +1,5 @@
+# How to find .sny and .mod files
+
 ## Preparations
 
 Please mount your recovery partition, insert your recovery discs, or extract ISOs (using 7-Zip or Win-RAR).
