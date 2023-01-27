@@ -2,7 +2,7 @@
 
   - [How to find .sny and .mod files](How-to-find-sny-and-mod-files.md)
 
-- Using SVRü
+- Using SVRP
 
   - [How to use SVRP (GUI)](How-to-use-SVRP-GUI.md)
 
