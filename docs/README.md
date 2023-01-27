@@ -1,5 +1,7 @@
 ## Welcome to Sony VAIO Recovery Patcher documentation!
 
+#### This is a test environnement! Please use the wiki available on the GitHub repository.
+
 ### Start here!
 
 [How to find .sny and .mod files](How-to-find-sny-and-mod-files.md)
