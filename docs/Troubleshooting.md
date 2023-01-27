@@ -34,4 +34,4 @@ If you are currently using wimlib-imagex "windows-i686-bin", which is the 32-bit
 
 **This problem happens on nearly all Windows 7 recoveries.** Sometimes, the BSOD doesn't show at all, and the system simply reboots, however, this method should fix it.
 
-Please see [the page](https://github.com/Vir0z4/svrp/wiki/BSOD:-Windows-did-not-find-any-installed,-licensed-language-packs-for-the-system-default-UI-language-(0x0000012a)) dedicated to this problem.
+Please see [the page](BSOD_0x0000012a.md) dedicated to this problem.
