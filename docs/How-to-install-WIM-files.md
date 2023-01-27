@@ -1,3 +1,5 @@
+# How to install WIM files
+
 ## Preparations
 
 First, you need a Windows PE environment that you can run on the target machine (Windows ISOs, etc...). 
@@ -6,11 +8,11 @@ You then need a copy of [wimlib-imagex](https://wimlib.net) (we recommend the "w
 
 Then, copy over the WIM file SVRP created to the wimlib-imagex folder you just transferred to your PE environment media, or on another USB drive or media.
 
-If you're having any issues, please see the [Troubleshooting](https://github.com/Vir0z4/svrp/wiki/Troubleshooting) page.
+If you're having any issues, please see the [Troubleshooting](troubleshooting.md) page.
 
 ## Windows 7 recoveries
 
-To install Windows 7 recoveries, you must go through with [this guide](https://github.com/Vir0z4/svrp/wiki/BSOD:-Windows-did-not-find-any-installed,-licensed-language-packs-for-the-system-default-UI-language-(0x0000012a)) **before installing the WIM**. Only for Windows 7.
+To install Windows 7 recoveries, you must go through with [this guide](BSOD_0x0000012a.md) **before installing the WIM**. Only for Windows 7.
 
 ## Initial setup
 
@@ -50,4 +52,4 @@ Then, to create the boot files, you must use this command:
 
 If the command is unknown, use a Windows 10 PE.
 
-**Proceed to [Post-installation](https://github.com/Vir0z4/svrp/wiki/Post-installation) guide.** For BSOD issues related to language packs, etc, please see the [Troubleshooting](https://github.com/Vir0z4/svrp/wiki/Troubleshooting) page.
+**Proceed to [Post-installation](post-installation.md) guide.** For BSOD issues related to language packs, etc, please see the [Troubleshooting](troubleshooting.md) page.
