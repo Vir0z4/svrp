@@ -1,5 +1,3 @@
-- ### Sony VAIO Recovery Patcher - Documentation
-
 - Getting started
 
   - [How to find .sny and .mod files](How-to-find-sny-and-mod-files.md)
