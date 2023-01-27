@@ -1,10 +1,12 @@
+# Post-installation
+
 ## Warning
 
 **Please make sure to follow the instructions on this page.**
 
 ## First boot
 
-**For BSOD issues** related to language packs, etc, please see the [Troubleshooting](https://github.com/Vir0z4/svrp/wiki/Troubleshooting) page.
+**For BSOD issues** related to language packs, etc, please see the [Troubleshooting](Troubleshooting.md) page.
 
 After Windows has been successfully installed, let it get to the Desktop. 
 
@@ -23,7 +25,7 @@ Please only install the apps that are not installed, don't reinstall ones that a
 
 ## How to install applications (.mod files)
 
-* First, extract all the .mod files using SVRP. Please see the guide on [how to use SVRP](https://github.com/Vir0z4/svrp/wiki/How-to-use-SVRP-(GUI-version)).
+* First, extract all the .mod files using SVRP. Please see the guide on [how to use SVRP](How-to-use-SVRP-GUI.md).
 
 * Put the extracted .mod files on a USB drive or other removable media.
 
