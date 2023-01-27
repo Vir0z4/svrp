@@ -21,7 +21,7 @@ Make sure to not confuse .sny files with files that contain sny in the name! We 
 
 If no .sny files can be found, your recovery is not yet supported.
 
-**Please continue with the guide on [how to use SVRP](https://github.com/Vir0z4/svrp/wiki/How-to-use-SVRP-(GUI-version)).**
+**Please continue with the guide on [how to use SVRP](How-to-use-SVRP-GUI.md).**
 
 ## Getting .mod files
 
@@ -38,6 +38,6 @@ These files sometimes have random names, or are named after the application insi
 
 If you do not have any .mod files, but have .sny files, you can use SVRP.
 
-Check [Post-installation](https://github.com/Vir0z4/svrp/wiki/Post-installation) guide for more information on applications.
+Check [Post-installation](Post-installation.md) guide for more information on applications.
 
-**Please continue with the guide on [how to use SVRP](https://github.com/Vir0z4/svrp/wiki/How-to-use-SVRP-(GUI-version)).**
+**Please continue with the guide on [how to use SVRP](How-to-use-SVRP-GUI.md).**
