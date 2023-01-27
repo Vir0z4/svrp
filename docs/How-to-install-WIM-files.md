@@ -8,7 +8,7 @@ You then need a copy of [wimlib-imagex](https://wimlib.net) (we recommend the "w
 
 Then, copy over the WIM file SVRP created to the wimlib-imagex folder you just transferred to your PE environment media, or on another USB drive or media.
 
-If you're having any issues, please see the [Troubleshooting](troubleshooting.md) page.
+If you're having any issues, please see the [Troubleshooting](Troubleshooting.md) page.
 
 ## Windows 7 recoveries
 
@@ -52,4 +52,4 @@ Then, to create the boot files, you must use this command:
 
 If the command is unknown, use a Windows 10 PE.
 
-**Proceed to [Post-installation](post-installation.md) guide.** For BSOD issues related to language packs, etc, please see the [Troubleshooting](troubleshooting.md) page.
+**Proceed to [Post-installation](Post-installation.md) guide.** For BSOD issues related to language packs, etc, please see the [Troubleshooting](Troubleshooting.md) page.
