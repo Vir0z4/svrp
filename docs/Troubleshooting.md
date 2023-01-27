@@ -1,3 +1,5 @@
+# Troubleshooting
+
 For support, please join the [Sony MegaServer](https://discord.gg/EdccRK73nC) Discord server and talk to us on the #vaio channel.
 
 ## Errors while running SVRP
