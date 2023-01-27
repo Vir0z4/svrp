@@ -1,10 +1,12 @@
+# How to use SVRP
+
 ## Preparations
 First, copy all the patchable (.sny and .mod) files from your recovery partition or discs using [this guide](https://github.com/Vir0z4/svrp/wiki/How-to-find-.sny-and-.mod-files). 
 If you do not have .sny files (which are the most important), your recovery partition or discs aren't supported yet. If you don't have .mod files, but only .sny files, you can continue.
 
 **Make sure that you copied all the files to a writable folder which path contains no spaces!** (example: "C:\patchfiles")
 
-If you're having any issues when using SVRP, please see the [Troubleshooting](https://github.com/Vir0z4/svrp/wiki/Troubleshooting) page.
+If you're having any issues when using SVRP, please see the [Troubleshooting](Troubleshooting.md) page.
 
 ## Installing SVRP
 
@@ -24,7 +26,7 @@ Download the [latest release](https://github.com/Vir0z4/svrp/releases/latest) of
 
 * If process 2 succeded without errors, you should now find your WIM file in the output directory.
 
-**To learn more on how to install the WIM file (Windows), please visit [this page](https://github.com/Vir0z4/svrp/wiki/How-to-install-WIM-files).**
+**To learn more on how to install the WIM file (Windows), please visit [this page](How-to-install-WIM-files.md).**
 
 ## Using SVRP for .mod files (applications)
 
@@ -42,4 +44,4 @@ Please only extract .mod files after installing Windows.
 
 * If process 2 succeded without errors, the extracted .mod should be in the output folder.
 
-**Install applications using the guide on the [Post-installation](https://github.com/Vir0z4/svrp/wiki/Post-installation) page.**
+**Install applications using the guide on the [Post-installation](Post-installation.md) page.**
