@@ -75,10 +75,10 @@ if RTD_TESTING or "FURO_RTD_TESTING" in os.environ:
     html_context["current_version"] = "latest"
     html_context["conf_py_path"] = "/docs/"
     html_context["display_github"] = True
-    html_context["github_user"] = "pradyunsg"
-    html_context["github_repo"] = "furo"
+    html_context["github_user"] = "Vir0z4"
+    html_context["github_repo"] = "svrp"
     html_context["github_version"] = "main"
-    html_context["slug"] = "furo"
+    html_context["slug"] = "svrp"
 
 FONT_AWESOME_TESTING = False
 if FONT_AWESOME_TESTING:
@@ -91,7 +91,7 @@ if FONT_AWESOME_TESTING:
     html_theme_options["footer_icons"] = [
         {
             "name": "GitHub",
-            "url": "https://github.com/pradyunsg/furo",
+            "url": "https://github.com/Vir0z4/svrp",
             "html": "",
             "class": "fa-solid fa-github fa-2x",
         },
