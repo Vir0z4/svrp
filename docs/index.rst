@@ -29,13 +29,20 @@ For troubleshooting, please visit `this page <Troubleshooting.md>`__.
 .. toctree::
    :maxdepth: 2
    :caption: Getting started
+   
    How-to-find-sny-and-mod-files.md
+   
    :caption: Using SVRP
+   
    How-to-use-SVRP-GUI.md
+   
    :caption: Installation
+   
    How-to-install-WIM-files.md
    Post-installation.md
+   
    :caption: Troubleshooting
+   
    Troubleshooting.md
    BSOD_0x0000012a.md
    sourcecode.rst
