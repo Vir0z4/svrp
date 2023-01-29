@@ -1,3 +1,7 @@
+---
+hide-toc: true
+---
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -10,10 +14,6 @@
    README
    Troubleshooting
    _sidebar
-
----
-hide-toc: true
----
 
 # Welcome to Sony VAIO Recovery Patcher documentation!
 
