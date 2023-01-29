@@ -4,8 +4,6 @@ hide-toc: true
 
 # Welcome to Sony VAIO Recovery Patcher documentation!
 
-This is a test environment! Please use the wiki available on the GitHub repository.
-
 ## Start here!
 
 [How to find .sny and .mod files](How-to-find-sny-and-mod-files.md)
@@ -25,18 +23,32 @@ This is a test environment! Please use the wiki available on the GitHub reposito
 For troubleshooting, please visit [this page](Troubleshooting.md).
 
 ```{toctree}
+:caption: Getting started
 :hidden:
 
 How-to-find-sny-and-mod-files.md
+
+```
+
+```{toctree}
+:caption: Using SVRP
+:hidden:
+
 How-to-use-SVRP-GUI.md
 ```
 
 ```{toctree}
-:caption: Development
+:caption: Installation
 :hidden:
 
 How-to-install-WIM-files.md
 Post-installation.md
+```
+
+```{toctree}
+:caption: Troubleshooting
+:hidden:
+
 Troubleshooting.md
 BSOD_0x0000012a.md
 ```
