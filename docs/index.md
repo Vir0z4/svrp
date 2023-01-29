@@ -1,18 +1,6 @@
 ---
-hide-toc: false
+hide-toc: true
 ---
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   
-   BSOD_0x0000012a.md
-   How-to-find-sny-and-mod-files.md
-   How-to-install-WIM-files.md
-   How-to-use-SVRP-GUI.md
-   Post-installation.md
-   Troubleshooting.md
-   _sidebar.rst
 
 # Welcome to Sony VAIO Recovery Patcher documentation!
 
