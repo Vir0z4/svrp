@@ -14,7 +14,7 @@ hide-toc: true
 
 ## Installation
 
-[How to install a WIM file](How-to-install-WIM-files.md)
+[How to install WIM files](How-to-install-WIM-files.md)
 
 [Post-installation instructions](Post-installation.md)
 
