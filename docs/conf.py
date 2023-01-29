@@ -113,11 +113,3 @@ if FONT_AWESOME_TESTING:
             "class": "fa-solid fa-github fa-2x",
         },
     ]
-html_sidebars = {
-    "**": [
-        "sidebar/brand.html",
-        "sidebar/search.html",
-        "sidebar/navigation.html",
-        "_sidebar.md"
-    ]
-}
