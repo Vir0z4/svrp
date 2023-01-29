@@ -14,7 +14,7 @@ The GUI version is **easier and faster to use** compared to the batch version, a
 
 ## Documentation
 
-**Please visit the [wiki](https://github.com/Vir0z4/svrp/wiki).**
+**Please visit the [documentation](https://svrp.vir0z4.com).**
 
 SVRP must be installed in the default location (C:\SVRP) and used in an environment with paths **that do not contain spaces!**
 
