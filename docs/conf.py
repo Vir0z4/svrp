@@ -45,7 +45,17 @@ language = "en"
 html_static_path = ["_static"]
 html_css_files = ["pied-piper-admonition.css"]
 
-html_sidebars = {'**': ['globaltoc.html', 'sidebar.rst']}
+html_sidebars = {'**': ['globaltoc.html', 'localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html',
+                       ['Getting started',
+                        '- How to find .sny and .mod files <How-to-find-sny-and-mod-files.html>',
+                        'Using SVRP',
+                        '- How to use SVRP <How-to-use-SVRP-GUI.html>',
+                        'Installation',
+                        '- How to install a WIM file <How-to-install-WIM-files.html>',
+                        '- Post-installation instructions <Post-installation.html>',
+                        'Troubleshooting',
+                        '- Troubleshooting <Troubleshooting.html>',
+                        '- BSOD 0x0000012a <BSOD_0x0000012a.html>']]}
 
 html_theme_options: Dict[str, Any] = {
     "footer_icons": [
