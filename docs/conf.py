@@ -114,4 +114,11 @@ if FONT_AWESOME_TESTING:
         },
     ]
 
-html_sidebars = {'**': ['globaltoc.html', '_sidebar.rst']}
+html_sidebars = {'**': [        
+        "sidebar/scroll-start.html",
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        "sidebar/navigation.html",
+        "sidebar/ethical-ads.html",
+        "sidebar/scroll-end.html", 
+        "_sidebar.rst"]}
