@@ -116,6 +116,6 @@ if FONT_AWESOME_TESTING:
 
 html_sidebars = {'**': [        
         "sidebar/scroll-start.html",
-        "sidebar/brand.html",",
+        "sidebar/brand.html",
         "sidebar/navigation.html",,, 
         "_sidebar.rst"]}
