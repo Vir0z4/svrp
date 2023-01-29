@@ -1,9 +1,5 @@
 # Post-installation
 
-## Warning
-
-**Please make sure to follow the instructions on this page.**
-
 ## First boot
 
 **For BSOD issues** related to language packs, etc, please see the [Troubleshooting](Troubleshooting.md) page.
