@@ -28,7 +28,6 @@ For troubleshooting, please visit `this page <Troubleshooting.md>`__.
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Getting started
    How-to-find-sny-and-mod-files.md
    :caption: Using SVRP
