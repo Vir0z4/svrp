@@ -10,6 +10,8 @@
 
 It can patch **.sny** files, which contain the Windows installation in form of a WIM, and **.mod** files, which are applications (most of the VAIO apps, and others).
 
+![SVRP GUI Screenshot](https://i.postimg.cc/Bvpbcvs0/SVRP-main-crop.png)
+
 The GUI version is **easier and faster to use** compared to the batch version, and it features an auto .mod patcher which detects all the .mod files in a folder, and automatically patches all of them.
 
 ## Documentation
