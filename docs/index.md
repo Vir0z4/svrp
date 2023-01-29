@@ -1,5 +1,5 @@
 ---
-hide-toc: true
+hide-toc: false
 ---
 
 .. toctree::
