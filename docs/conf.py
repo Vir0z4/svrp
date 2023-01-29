@@ -114,4 +114,4 @@ if FONT_AWESOME_TESTING:
         },
     ]
 
-html_sidebars = {'**': ['globaltoc.html', '_sidebar.rst']}
+html_sidebars = {'**': ['localtoc.html', '_sidebar.rst']}
