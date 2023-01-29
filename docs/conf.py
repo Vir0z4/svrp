@@ -45,7 +45,7 @@ language = "en"
 html_static_path = ["_static"]
 html_css_files = ["pied-piper-admonition.css"]
 
-html_sidebars = {'**': ['globaltoc.html', 'docs/_sidebar.rst']}
+html_sidebars = {'**': ['globaltoc.html', '_sidebar.rst']}
 
 html_theme_options: Dict[str, Any] = {
     "footer_icons": [
