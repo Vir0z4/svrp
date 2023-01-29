@@ -19,4 +19,3 @@ Troubleshooting
 
 - `Troubleshooting <Troubleshooting.html>`_
 - `BSOD 0x0000012a <BSOD_0x0000012a.html>`_
-
