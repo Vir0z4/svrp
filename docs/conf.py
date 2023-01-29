@@ -45,7 +45,7 @@ language = "en"
 html_static_path = ["_static"]
 html_css_files = ["pied-piper-admonition.css"]
 
-html_sidebars = {'**': ['globaltoc.html', 'localtoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html',
+html_sidebars = {'**': ['globaltoc.html',
                        ['Getting started',
                         '- How to find .sny and .mod files <How-to-find-sny-and-mod-files.html>',
                         'Using SVRP',
