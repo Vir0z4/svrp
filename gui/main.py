@@ -50,7 +50,7 @@ class SVRP(QtWidgets.QMainWindow):
         self.about_button.clicked.connect(self.about)
         self.about_button.raise_()
         
-        self.bottom_text = QLabel("GUI v2.0", self)
+        self.bottom_text = QLabel("GUI v2.0.1", self)
         self.bottom_text.setGeometry(5, 145, 100, 30)
         self.bottom_text.setStyleSheet("font: 7pt")
         self.bottom_text.setAlignment(Qt.AlignLeft | Qt.AlignBottom)

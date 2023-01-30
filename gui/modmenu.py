@@ -37,7 +37,7 @@ class ModMenu(QtWidgets.QDialog):
         self.right_button.move(150, 75)
         self.right_button.clicked.connect(self.run_script2)
         
-        self.bottom_text = QLabel("GUI v2.0", self)
+        self.bottom_text = QLabel("GUI v2.0.1", self)
         self.bottom_text.setGeometry(5, 115, 100, 30)
         self.bottom_text.setStyleSheet("font: 7pt")
         self.bottom_text.setAlignment(Qt.AlignLeft | Qt.AlignBottom)

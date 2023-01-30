@@ -22,7 +22,7 @@ class AutoMod(QtWidgets.QDialog):
         self.heading_text.setStyleSheet("font: 16pt")
         self.heading_text.setAlignment(Qt.AlignLeft | Qt.AlignTop)
         
-        self.heading_text = QLabel("GUI v2.0", self)
+        self.heading_text = QLabel("GUI v2.0.1", self)
         self.heading_text.setGeometry(360, 13, 500, 30)
         self.heading_text.setStyleSheet("font: 8pt")
         

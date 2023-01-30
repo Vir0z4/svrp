@@ -41,7 +41,7 @@ class AboutDialog(QtWidgets.QDialog):
         self.github_button.setGeometry(165, 125, 75, 20)
         self.github_button.clicked.connect(self.run_script3)
         
-        self.bottom_text = QLabel("GUI v2.0", self)
+        self.bottom_text = QLabel("GUI v2.0.1", self)
         self.bottom_text.setGeometry(5, 115, 100, 30)
         self.bottom_text.setStyleSheet("font: 7pt")
         self.bottom_text.setAlignment(Qt.AlignLeft | Qt.AlignBottom)

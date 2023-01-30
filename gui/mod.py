@@ -22,7 +22,7 @@ class ManualMod(QtWidgets.QDialog):
         self.heading_text.setStyleSheet("font: 16pt")
         self.heading_text.setAlignment(Qt.AlignLeft | Qt.AlignTop)
         
-        self.heading_text = QLabel("GUI v2.0", self)
+        self.heading_text = QLabel("GUI v2.0.1", self)
         self.heading_text.setGeometry(360, 13, 500, 30)
         self.heading_text.setStyleSheet("font: 8pt")
         
@@ -53,7 +53,7 @@ class ManualMod(QtWidgets.QDialog):
         self.file_bar = QLineEdit(self)
         self.file_bar.setGeometry(12, 210, 150, 20)
 
-        self.file_bar_label = QLabel("Enter name of .mod file (with extention) you desire to extract:", self)
+        self.file_bar_label = QLabel("Enter name of .mod file (with extension) you desire to extract:", self)
         self.file_bar_label.setGeometry(12, 182, 350, 20)
         
         self.file_bar_label_2 = QLabel("(example: 'MODJ-164418.mod')", self)

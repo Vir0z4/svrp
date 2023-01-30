@@ -22,7 +22,7 @@ class SnyPatcher(QtWidgets.QDialog):
         self.heading_text.setStyleSheet("font: 16pt")
         self.heading_text.setAlignment(Qt.AlignLeft | Qt.AlignTop)
         
-        self.heading_text = QLabel("GUI v2.0", self)
+        self.heading_text = QLabel("GUI v2.0.1", self)
         self.heading_text.setGeometry(360, 13, 500, 30)
         self.heading_text.setStyleSheet("font: 8pt")
         
@@ -53,7 +53,7 @@ class SnyPatcher(QtWidgets.QDialog):
         self.file_bar = QLineEdit(self)
         self.file_bar.setGeometry(12, 210, 150, 20)
 
-        self.file_bar_label = QLabel("Enter name and extention of first .sny file:", self)
+        self.file_bar_label = QLabel("Enter name and extension of first .sny file:", self)
         self.file_bar_label.setGeometry(12, 182, 250, 20)
         
         self.file_bar_label_2 = QLabel("(usually has the shortest name,\nlike 'sony.sny' and 'p2.sny')", self)
