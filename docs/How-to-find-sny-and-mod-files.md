@@ -12,8 +12,8 @@ For Windows 7 users, disable `Hide extensions for known file types`, and for Win
 
 On some recoveries, you can find them on the root directory, but on others, they are hidden in the "data" folder.
 
-**In order to find them quickly**, use the "Search" function on Windows Explorer, simply by typing `.sny` (make sure to check **all** discs!). 
-Then, copy all the files to a **writable folder which path does not contain spaces**.
+**In order to find them quickly**, use the "Search" function on Windows Explorer, simply by typing `*.sny` (make sure to check **all** discs!). 
+Then, copy all the files to a empty, **writable folder which path does not contain spaces**.
 
 Make sure to not confuse .sny files with files that contain sny in the name! We only want the files with the `.sny` file extension (for example "sony.sny", **not** "SNYHDRCV.dll").
 
@@ -29,8 +29,8 @@ If no .sny files can be found, your recovery is not yet supported.
 
 Sometimes, .mod files are already bundled inside .sny files. **So before taking care of .mod files, please extract the WIM from .sny files and install Windows.**
 
-**In order to find .mod files**, use the "Search" function on Windows Explorer, simply by typing `.mod` (make sure to check **all** discs!). 
-Then, copy all desired files to a **writable folder which path does not contain spaces**.
+**In order to find .mod files**, use the "Search" function on Windows Explorer, simply by typing `*.mod` (make sure to check **all** discs!). 
+Then, copy all desired files to a empty, **writable folder which path does not contain spaces**.
 
 Make sure to not confuse .mod files with files that contain mod in the name! We only want the files with the `.mod` file extension (for example "MODJ-164441.mod", **not** "MODSYSAP.dll").
 
