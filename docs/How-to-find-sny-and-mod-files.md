@@ -2,6 +2,8 @@
 
 ## Preparations
 
+Note which Windows version your recovery includes. SVRP does not yet support Windows 98, ME, 2000 and XP recoveries! Most if not all Vista, 7, and 8 recoveries are supported.
+
 Please mount your recovery partition, insert your recovery discs, or extract ISOs (using 7-Zip or Win-RAR).
 
 For Windows 7 users, disable `Hide extensions for known file types`, and for Windows 8/8.1/10/11 users, enable `File name extensions`.
