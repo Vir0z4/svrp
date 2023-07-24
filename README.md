@@ -22,7 +22,7 @@ The GUI version is **easier and faster to use** compared to the batch version, a
 
 SVRP must be installed in the default location (C:\SVRP) and used in an environment with paths **that do not contain spaces!**
 
-For support, please join the [Sony MegaServer](https://discord.gg/EdccRK73nC) Discord server and talk to us on the #vaio channel.
+For support, please join the [SonyPlaza](https://discord.gg/bF9BgTzqZk) Discord server and talk to us on the #vaio channel.
 
 ## Miscellaneous Informations
 
