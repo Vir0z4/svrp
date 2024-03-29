@@ -18,7 +18,7 @@ The GUI version is **easier and faster to use** compared to the batch version, a
 
 ## Documentation
 
-**Please visit the [documentation](https://svrp.vir0z4.com).**
+**Please visit the [documentation](https://svrp.vaiolibrary.com).**
 
 SVRP must be installed in the default location (C:\SVRP) and used in an environment with paths **that do not contain spaces!**
 
@@ -28,7 +28,7 @@ For support, please join the [SonyPlaza](https://discord.gg/bF9BgTzqZk) Discord 
 
 This tool was developed with Python and batch, and was packaged to a standalone exe by Nuitka.
 
-[wimlib-imagex](https://wimlib.net) (version 1.13.6) is the tool of choice for exporting and extracting WIMs. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
+[wimlib-imagex](https://wimlib.net) (version 1.14.3) is the tool of choice for exporting and extracting WIMs. It is used over Microsoft's ImageX as it offers more functionality, stability, and has a considerably higher success rate.
 
 Sony Vaio MOD Patcher (patchmod.exe) is used to patch .sny and .mod files, in order for wimlib-imagex to be able to recognize them. Original source of this program is currently unknown, as it was originally published on the now defunct NotebookReview forums.
 
